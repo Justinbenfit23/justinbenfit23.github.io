@@ -3946,6 +3946,16 @@ input, select, textarea {
 
 		}
 
+		/* Custom CSS for the list */
+	        .resume-list {
+	            list-style-position: inside; /* Aligns bullets inside the list item */
+	            padding-left: 0;            /* Removes default padding */
+	            margin-left: 0;             /* Aligns with the paragraph text */
+	        }
+	        .resume-list li {
+	            text-align: left; /* Ensures text alignment */
+	        }
+
 /* Footer */
 
 	#footer {
